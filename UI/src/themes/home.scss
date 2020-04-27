@@ -1,0 +1,57 @@
+
+
+.home_container {
+   height: 85%;
+ 
+   .group_user_container {
+     height: 75%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ 
+     .info_container {
+       margin: 1em;
+       width: 45%;
+       height: 100%;
+       border: 1px solid #000000;
+       padding: 0 20px;
+ 
+       .title {
+         text-align: center;
+       }
+ 
+       .new_group_user_btn_container{
+         margin: 10px 0;
+       }
+ 
+       .list_container{
+         max-height: 380px;
+         overflow-y: auto;
+         max-height: 75%;
+
+         .name_input {
+            width: 200px;
+            font-size: 14px;
+            padding: 0 10px;
+            margin: 10px auto;
+          }
+
+          .group_select {
+             font-size: 14px;
+             margin-left: 10px;
+          }
+ 
+         .operation_container {
+           width: 15%;
+           float:right;
+           display: flex;
+           justify-content: center;
+   
+           .group_user_name_label {
+             font-size: 12px;
+           }
+         }
+       }
+     }
+   }
+ }

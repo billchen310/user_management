@@ -1,0 +1,13 @@
+export const SELECT_GROUP = 'SELECT_GROUP';
+export const SET_GROUPS = 'SET_GROUPS';
+export const APPEND_GROUP = 'APPEND_GROUP';
+
+export const SELECT_USER = 'SELECT_USER';
+export const SET_USERS = 'SET_USERS';
+export const APPEND_USER = 'APPEND_USER';
+
+export const SET_GROUP_STATUS = 'SET_GROUP_STATUS';
+export const SET_USER_STATUS = 'SET_USER_STATUS';
+
+export const SET_SERVER_ERROR_GROUP = 'SET_SERVER_ERROR_GROUP';
+export const SET_SERVER_ERROR_USER = 'SET_SERVER_ERROR_USER';

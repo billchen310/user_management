@@ -1,0 +1,66 @@
+
+.header_home {
+    width: 100%;
+    background-color: #87CEFA;
+    height: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+    .left_container {
+      width: 27%;
+    }
+  
+    .middle_container {
+      width: 46%;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: 600;
+      color:#663399;
+    }
+  
+    .logout_btn_container {
+      width: 12%;
+  
+      .logout_btn {
+        width: 100px;
+        height: 2em;
+      }
+    }
+  
+    .user_name_area {
+      width: 15%;
+      display: flex;
+      justify-content: flex-end;
+  
+      .user_name_icon {
+        width: 25%;
+        height: 2em;
+        line-height: 2em;
+        text-align: right;
+        margin-right: 5px;
+        color: #FF8C00;
+      }
+  
+      .user_name_label {
+        height: 2em;
+        line-height: 2em;
+        text-align: right;
+        margin-right: 20px;
+      }
+    }
+  }
+  
+  .header_login {
+    width: 100%;
+    height: 15%;
+    background-color: #87CEFA;
+    color:#663399;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

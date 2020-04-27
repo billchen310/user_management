@@ -1,0 +1,35 @@
+.login_container {
+  height: 85%;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .login_input {
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: #777;
+    margin: 10px auto;
+  }
+  
+  .login_submit_btn {
+    display: block;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #3194d0;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
