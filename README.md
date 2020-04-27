@@ -28,7 +28,9 @@ Use "npm run build" to build the package for production deployment
 
 ## Default user
 2 default users have been put in the in memory DB:
+
 (1), username: "admin", password: "admin" -> administrator
+
 (2), username: "user1", password: "123456" -> normal user
 
 So login is available for above users
