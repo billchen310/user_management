@@ -2,9 +2,15 @@ This project consists of frontend UI, backend server and in memory DB.
 It allows admin users to manage the groups and users and normal users to view the groups and users.
 
 ## Technology Stacks:
-Frontend: React JS (v16), Redux, React-router-dom, HTML, SASS, Webpack
-Backend: Node JS (v12), Express JS
-DB: In memory DB constructed by JSON list
+
+### Frontend
+React JS (v16), Redux, React-router-dom, HTML, SASS, Webpack
+
+### Backend
+Node JS (v12), Express JS
+
+### DB
+In memory DB constructed by JSON list
 
 ## demo:
 A production instance has been deployed to AWS for the demonstration:
